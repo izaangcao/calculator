@@ -8,7 +8,7 @@ using std:: cout;
 using std:: cin;
 using namespace std;
 
-int aa,a,b;
+int select,a,b;
 void no();
 int main(){
 
@@ -20,9 +20,9 @@ int main(){
 	cout<<"[4 Multiplication]\n";
 	
 	cout<<"Enter a Number: ";
-	cin>>aa;
+	cin>>select;
 	
-	switch(aa){
+	switch(select){
 
 		case 1:{
 		cout<<"Enter Firstnumber\n";
@@ -30,17 +30,17 @@ int main(){
 		cout<<"Enter Secondnumber\n";
 		cin>>b;
 		
-		aa=a+b;
+		select=a+b;
 		cout<<"Sum = "<<aa;
 		
 		cout<<"\n\nwoud you like go in operator again?\n 1[yes] 2[no]\n";
-		cin>>aa;
+		cin>>select;
 		system("cls");
-		if (aa==1){
+		if (select==1){
 			
 			main();
 		}
-		else if(aa==2){ 
+		else if(select==2){ 
 	
 		no();
 	}
@@ -55,16 +55,16 @@ int main(){
 		cin>>b;
 		
 		aa=a-b;
-		cout<<"Subtract = "<<aa;
+		cout<<"Subtract = "<<select;
 		
 		cout<<"\n\n you like go in operator again? 1[yes] 2[no]\n";
-		cin>>aa;
+		cin>>select;
 		system("cls");
-		if (aa==1){
+		if (select==1){
 			
 			main();
 		}
-		else if(aa==2){ 
+		else if(select==2){ 
 	
 		no();
 	}
@@ -76,23 +76,23 @@ int main(){
 		cout<<"Enter Firstnumber\n";
 		cin>>a;
 		cout<<"Enter Secondnumber\n";
-		if (aa==1){
+		if (select==1){
 			
 			main();
 		}
 		
 		aa=a/b;
-		cout<<"Divide = "<<aa;
+		cout<<"Divide = "<<select;
 		
 		cout<<"\n\nwoud you like go in operator again? 1[yes] 2[no]\n";
-		cin>>aa;
+		cin>>select;
 		system("cls");
 			
-		if (aa==1){
+		if (select==1){
 			
 			main();
 		}
-		else if(aa==2){ 
+		else if(select==2){ 
 	
 		no();
 	}
@@ -107,16 +107,16 @@ int main(){
 		cin>>b;
 		
 		aa=a*b;
-		cout<<"Multiply = "<<aa;
+		cout<<"Multiply = "<<select;
 		
 		cout<<"\n\nwoud you like go in operator again? 1[Yes] 2[no]\n";
-		cin>>aa;
+		cin>>select;
 		system("cls");
-	if (aa==1){
+	if (select==1){
 			
 			main();
 		}
-	else if(aa==2){ 
+	else if(select==2){ 
 	
 		no();
 	}
